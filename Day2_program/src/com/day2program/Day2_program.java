@@ -8,15 +8,15 @@ public class Day2_program {
 		
 		System.out.println("Enter value a:");
 
-		Scanner a1=new Scanner(System.in);
-		int a=a1.nextInt();
+		Scanner s=new Scanner(System.in);
+		int a1=s.nextInt();
 		System.out.println("Enter value b:");
 		
-		Scanner b1=new Scanner(System.in);
-		int b=b1.nextInt();
-		float sum=a+b;
+		//Scanner b=new Scanner(System.in);
+		int b1=s.nextInt();
+		float sum=a1+b1;
 		System.out.println("Sum is:"+sum);
-		
+		s.close();
 
 	}
 
