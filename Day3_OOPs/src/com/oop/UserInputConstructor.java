@@ -14,7 +14,7 @@ class C
 	}
 	void display()
 	{
-		 System.out.println(name1+roll1);
+		 System.out.println(name1+"  "+roll1);
 	}
 }
 public class UserInputConstructor {
@@ -28,7 +28,6 @@ public class UserInputConstructor {
 		int roll=s.nextInt();
 		C c1 = new C(name,roll);
 		c1.display();
-		
 		
 		s.close();
 	}
