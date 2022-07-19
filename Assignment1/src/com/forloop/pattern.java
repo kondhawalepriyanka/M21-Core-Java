@@ -2,9 +2,11 @@ package com.forloop;
 
 import java.util.Scanner;
 
-public class pattern {
+public class pattern
+{
 
-	public static void main(String[] args) {
+	public static void main(String[] args) 
+	{
 		Scanner s=new Scanner(System.in);
 		System.out.println("Enter n:");
 		int n=s.nextInt();	
@@ -15,11 +17,9 @@ public class pattern {
 			{
 				System.out.print("@");
 			}
-	
 			System.out.println();
 		}
 			s.close();
-
 		}
 	
 }
