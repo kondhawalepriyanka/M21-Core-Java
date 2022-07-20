@@ -10,7 +10,6 @@ public class bank
 		IOB i=new IOB();
 		i.setATM_PIN(3307);
 		System.out.println("The ATM PIN is:" +i.getATM_PIN());
-
 	}
 
 }
