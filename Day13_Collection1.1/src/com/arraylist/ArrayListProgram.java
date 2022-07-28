@@ -5,8 +5,6 @@ import java.util.List;
 public class ArrayListProgram 
 {
 	@SuppressWarnings("unused")
-	
-
 	public static void main(String[] args) 
 	{
 		List<Integer>obj=new ArrayList<>();
@@ -15,5 +13,8 @@ public class ArrayListProgram
 		obj.add(3);
 		obj.add(4);
 		System.out.println("Array List elements are:"+obj);
+		System.out.println(obj.contains(1));
+		System.out.println(obj.indexOf(3));
+		System.out.println(obj.size());
 	}
 }
