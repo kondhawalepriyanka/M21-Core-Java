@@ -16,7 +16,7 @@ public class Day2_program {
 		float sum=a1+b1;
 		System.out.println("Sum is:"+sum);
 		s.close();
-		
+	
 
 	}
 
