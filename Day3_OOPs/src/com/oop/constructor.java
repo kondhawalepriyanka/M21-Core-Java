@@ -12,6 +12,6 @@ public class constructor
 {
 	public static void main(String[] args)
 	{
-		A a=new A();
+		new A();
 	}
 }

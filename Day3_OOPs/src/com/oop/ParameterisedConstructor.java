@@ -16,7 +16,7 @@ public class ParameterisedConstructor
 	{
 		int n=8;
 		String name="ABC";
-		B a=new B(n,name);
+		new B(n,name);
 		}
 
 }

@@ -1,6 +1,6 @@
 package com.oop;
 import java.util.Scanner;
-
+//User Input Constructor Program
 class C
 {
 	public
