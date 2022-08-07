@@ -11,6 +11,7 @@ public class IOB
 	public void setATM_PIN(int AtmPin)
 	{
 		ATM_PIN=AtmPin;
+		
 	}
 	
 }
