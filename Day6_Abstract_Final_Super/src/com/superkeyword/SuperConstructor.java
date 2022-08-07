@@ -19,7 +19,7 @@ class Rose extends Flower
 public class SuperConstructor {
 
 	public static void main(String[] args) {
-		Rose r=new Rose();
+		new Rose();
 
 	}
 
