@@ -9,18 +9,16 @@ public class StaticBlock {
 		num=15;
 		str="Priyanka";
 	}
-	/*StaticBlock()
+	StaticBlock()
 	{
 		num=15;
-		str="Priyanka";
-	}*/
+		str="Abhishek";
+	}
 	public static void main(String[] args)
 	{
-		//StaticBlock s=new StaticBlock();
+		StaticBlock s=new StaticBlock();
 		System.out.println(num);
 		System.out.println(str);
-		
-
 	}
 
 }
