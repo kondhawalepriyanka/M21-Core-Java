@@ -4,7 +4,7 @@ public class StaticBlock {
 
 	static int num;
 	static String str;
-	static
+	static  //Static Block
 	{
 		num=15;
 		str="Priyanka";
