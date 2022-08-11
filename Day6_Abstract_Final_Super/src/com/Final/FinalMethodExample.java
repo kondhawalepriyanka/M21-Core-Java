@@ -1,4 +1,5 @@
 package com.Final;
+//Final Method example
 class FinalMethod
 {
 	void accept()
@@ -13,7 +14,7 @@ class Child extends FinalMethod
 		System.out.println("Hello");
 	}
 }
-public class FinalClass 
+public class FinalMethodExample 
 {
 	public static void main(String[] args) 
 	{	
