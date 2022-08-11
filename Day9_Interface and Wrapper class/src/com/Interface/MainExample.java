@@ -3,7 +3,7 @@ interface Vehicle
 {
 	void speed();
 }
-//when we use two interface and we are going to 
+//when we use two interface and we are going to use extends keyword here 
 interface Car extends Vehicle
 {
 	void engine();
