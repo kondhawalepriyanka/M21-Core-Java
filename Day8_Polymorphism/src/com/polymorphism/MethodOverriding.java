@@ -1,6 +1,8 @@
 package com.polymorphism;
 //Program on method overriding 
-//one class is not enough create two or more cllass which contains inheritance concept
+//one class is not enough create two or more class which contains inheritance concept
+//Method Overriding means superclass and child class have same method name with same parameters
+
 class Multiplication
 {
 	void accept(int a,int b)
@@ -10,9 +12,9 @@ class Multiplication
 }
 class Mul extends Multiplication
 {
-	void accept(int x,int y)
+	void accept(int a,int b)
 	{
-		System.out.println(x*y);
+		System.out.println(a*b);
 	}
 }
 public class MethodOverriding {
