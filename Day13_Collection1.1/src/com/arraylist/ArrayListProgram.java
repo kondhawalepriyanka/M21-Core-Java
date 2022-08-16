@@ -1,10 +1,10 @@
 package com.arraylist;
 import java.util.ArrayList;
 import java.util.List;
+
 //Array List Program
-public class ArrayListProgram 
+public class ArrayListProgram
 {
-	@SuppressWarnings("unused")
 	public static void main(String[] args) 
 	{
 		List<Integer>obj=new ArrayList<>();
@@ -15,6 +15,5 @@ public class ArrayListProgram
 		System.out.println("Array List elements are:"+obj);
 		System.out.println(obj.contains(1));
 		System.out.println(obj.indexOf(3));
-		System.out.println(obj.size());
 	}
 }

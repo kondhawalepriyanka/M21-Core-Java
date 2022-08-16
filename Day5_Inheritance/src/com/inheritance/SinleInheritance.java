@@ -2,14 +2,14 @@ package com.inheritance;
 
 class BaseClass
 {
-	void display()
+	final void display()
 	{
 		System.out.println("This is Parent class");
 	}
 }
 class ChildClass extends BaseClass
 {
-	void cdisplay()
+	final void cdisplay()
 	{
 		System.out.println("This is Child class");
 	}
@@ -21,5 +21,7 @@ public class SinleInheritance
 		ChildClass c=new ChildClass();
 		c.display();
 		c.cdisplay();
+		BaseClass b=new BaseClass();
+		b.display();
 	}
 }

@@ -11,6 +11,7 @@ public class UserInputArraylistUsingToken {
 		String str=s.nextLine();
 		System.out.println(str);
 		
+		@SuppressWarnings("resource")
 		Scanner token=new Scanner(str);
 		token.useDelimiter(" ");
 		//user input ArrayList
