@@ -31,6 +31,7 @@ class Valueof implements Runnable
 		t = new Thread(this);
 		t.start();
 	}
+	@SuppressWarnings("static-access")
 	public void run()
 	{
 		val.display();
@@ -44,8 +45,8 @@ public class StaticSynchronizedMethod
 	{
 		Testing obj1 = new Testing();
 		Testing obj2 = new Testing();
-		Valueof t1 = new Valueof(obj1);
-		Valueof t2 = new Valueof(obj2);
+		new Valueof(obj1);
+		new Valueof(obj2);
 	}
 
 }

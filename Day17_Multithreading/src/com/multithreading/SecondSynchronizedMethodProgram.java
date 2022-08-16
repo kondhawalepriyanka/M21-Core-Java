@@ -1,5 +1,4 @@
 package com.multithreading;
-import java.lang.*;
 
 class Test
 
