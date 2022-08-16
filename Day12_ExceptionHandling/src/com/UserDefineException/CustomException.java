@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 //Checked Exception
 //create an own exception
+@SuppressWarnings("serial")
 class NameNotFound extends Exception
 {
 	//constructor

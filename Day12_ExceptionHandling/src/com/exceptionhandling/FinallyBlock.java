@@ -24,5 +24,6 @@ public class FinallyBlock {
 		{
 			System.out.println("Whether any exception occur or not, finally block is always excuted");
 		}
+		s.close();
 	}
 }
