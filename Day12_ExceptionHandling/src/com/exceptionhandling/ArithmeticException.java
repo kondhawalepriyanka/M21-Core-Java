@@ -25,6 +25,7 @@ public class ArithmeticException
 		int[] myIntArray = new int[]{1, 2, 3};
 		print(myIntArray);
 		System.out.println("Third line");
+		s.close();
 	} 
 	public static void print(int[] arr)
 	{
