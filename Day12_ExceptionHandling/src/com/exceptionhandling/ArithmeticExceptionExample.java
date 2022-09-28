@@ -1,7 +1,7 @@
 package com.exceptionhandling;
 //Program to handle the exception
 import java.util.Scanner;
-public class ArithmeticException 
+public class ArithmeticExceptionExample 
 {
 	public static void main(String[] args) 
 	{
